@@ -33,18 +33,18 @@ The following files are required to run the notebook:
 The spelling checker notebook employs the following approaches to correct spelling errors:
 
 ### Statistical Language Model:
-    - Training: A statistical language model is trained using a pre-processed corpus (LM_trainingCorpus.json). This model learns the probability distribution of sequences of words, enabling it to predict the likelihood of a given sequence.
+Training: A statistical language model is trained using a pre-processed corpus (LM_trainingCorpus.json). This model learns the probability distribution of sequences of words, enabling it to predict the likelihood of a given sequence.
 Error Correction: The language model is used to evaluate and rank candidate corrections for misspelled words based on their likelihood within the context of a sentence. This helps in selecting the most probable
-    - correction for a given typo.
+correction for a given typo.
 
 ### Lexicon-Based Frequency Analysis:
 
-    - Lexicon Data: The SUBTLEXus.txt file provides frequency counts of words derived from movie subtitles. This data is used to prioritize corrections based on the frequency of word usage in the English language.
-    - Candidate Generation: Potential corrections for misspelled words are generated using the lexicon data. The more frequently a word appears in the lexicon, the higher its priority as a candidate correction.
+Lexicon Data: The SUBTLEXus.txt file provides frequency counts of words derived from movie subtitles. This data is used to prioritize corrections based on the frequency of word usage in the English language.
+Candidate Generation: Potential corrections for misspelled words are generated using the lexicon data. The more frequently a word appears in the lexicon, the higher its priority as a candidate correction.
 
 ### Contextual Analysis:
 
-    - Sentence Context: The code considers the entire sentence context when determining the best correction for a misspelled word. By analyzing the surrounding words and their relationships, the model ensures that the corrected sentence maintains grammatical and semantic coherence.
+Sentence Context: The code considers the entire sentence context when determining the best correction for a misspelled word. By analyzing the surrounding words and their relationships, the model ensures that the corrected sentence maintains grammatical and semantic coherence.
 
 ## License
 
