@@ -1,0 +1,16 @@
+ID	sentence
+1	did you knoq that our fiends had a baby?
+2	I red that reserachers managed to deviate the orbit of a comet with a satellite.
+3	I could not help but grozn in frustration when my computer trashed right before I finished my project.
+4	I mate a quolg from old clothes for my newborn nephew.
+5	he waies his wand to get the attention of the waiter.
+6	the roofs of the old house needed to he repaired before the wintr.
+7	munors are not allowed to purchase cigarettes or alcohol.
+8	the tumor was remove surgicaly.
+9	they aquire the company in order to expand their business.
+10	the hotel was able to acomodate all of our needs.
+11	I marked the dats on my calendar so I would not forger.
+12	I asked my collegue for there opinion on the matter.
+13	due to the economic situation, main employees were layed off from their jobs.
+14	I was refered to the specialist by my primary cate physician.
+15	many poets wrote in giambic pentameter.
